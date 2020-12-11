@@ -1,0 +1,20 @@
+﻿{
+  "name": "Seitenfenster rechts",
+  "launchApplicationPath": "",
+  "launchApplicationParams": "",
+  "exclusiveAction": 0,
+  "windowMoveType": 0,
+  "moveMonitorID": 1,
+  "windowSizeTypeH": 2,
+  "windowSizeTypeValueH": 1364.0,
+  "windowSizeTypeV": 2,
+  "windowSizeTypeValueV": 1400.0,
+  "windowScreenMoveType": 300,
+  "monitorProfileID": "00000000-0000-0000-0000-000000000000",
+  "wallpaperProfileID": "00000000-0000-0000-0000-000000000000",
+  "desktopIconProfileID": "00000000-0000-0000-0000-000000000000",
+  "windowPositionProfileID": "00000000-0000-0000-0000-000000000000",
+  "windowTransparencyPercent": 100.0,
+  "moveLocationX": 3757,
+  "moveLocationY": 0
+}
