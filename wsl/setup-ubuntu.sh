@@ -13,4 +13,5 @@ export PACKVERSION='0.15.1'
 cp ./ubuntu/01-aliases.sh /etc/profile.d/01-aliases.sh
 
 # Cleanup
+apt upgrade --yes
 apt autoremove --purge --yes
