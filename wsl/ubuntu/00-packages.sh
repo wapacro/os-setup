@@ -18,8 +18,9 @@ mv composer /usr/local/bin/composer
 rm composer-setup.php
 
 # Node.js & NPM
-packages="nodejs npm build-essential"
-curl -sL "https://deb.nodesource.com/setup_$NODEJSVERSION.x" | -E bash -
+packages="nodejs build-essential"
+curl -sSL https://deb.nodesource.com/gpgkey/nodesource.gpg.key | apt-key add -
+add-apt-repository "deb https://deb.nodesource.com/node_$NODEJSVERSION $(lsb_release -cs) main" --yes
 apt autoremove $packages --purge --yes
 apt install $packages --yes
 

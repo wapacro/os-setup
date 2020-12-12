@@ -3,7 +3,7 @@
 # Configuration
 export USER='roman'
 export PHPVERSION='8.0'
-export NODEJSVERSION='14'
+export NODEJSVERSION='14.x'
 export PACKVERSION='0.15.1'
 
 # Install packages
