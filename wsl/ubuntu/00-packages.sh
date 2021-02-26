@@ -3,7 +3,7 @@
 # Basics
 apt update
 apt upgrade --yes
-apt install git curl tar net-tools traceroute nano unzip ca-certificates apt-transport-https gnupg-agent software-properties-common --yes
+apt install git curl tar net-tools traceroute nano unzip ca-certificates apt-transport-https gnupg-agent software-properties-common jq --yes
 
 # PHP & Extensions
 packages="php$PHPVERSION php$PHPVERSION-bcmath php$PHPVERSION-redis php$PHPVERSION-curl php$PHPVERSION-gd php$PHPVERSION-gmp php$PHPVERSION-igbinary php$PHPVERSION-imagick php$PHPVERSION-mbstring php$PHPVERSION-xdebug php$PHPVERSION-sqlite3 php$PHPVERSION-mysql php$PHPVERSION-dom php$PHPVERSION-zip"
