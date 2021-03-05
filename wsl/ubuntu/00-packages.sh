@@ -47,3 +47,10 @@ curl -fsSL https://packages.microsoft.com/keys/microsoft.asc | apt-key add -
 add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/azure-cli/ $(lsb_release -cs) main" --yes
 apt autoremove $packages --purge --yes
 apt install $packages --yes
+
+# kubectl
+packages="kubectl"
+curl -fsSL https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
+add-apt-repository "deb https://apt.kubernetes.io/ kubernetes-xenial main" --yes
+apt autoremove $packages --purge --yes
+apt install $packages --yes
