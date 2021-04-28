@@ -50,7 +50,7 @@ apt install $packages --yes
 
 # kubectl
 packages="kubectl"
-curl -fsSL https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
+curl -fsSL https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add -
 add-apt-repository "deb https://apt.kubernetes.io/ kubernetes-xenial main" --yes
 apt autoremove $packages --purge --yes
 apt install $packages --yes
